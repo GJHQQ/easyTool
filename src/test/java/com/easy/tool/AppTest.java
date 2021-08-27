@@ -2,8 +2,12 @@ package com.easy.tool;
 
 import static org.junit.Assert.assertTrue;
 
+import com.alibaba.fastjson.JSONObject;
+import com.easy.tool.utils.http.HttpClient;
 import com.easy.tool.utils.pinyin.PingYinUtil;
 import org.junit.Test;
+
+import java.util.ArrayList;
 
 /**
  * Unit test for simple App.
@@ -14,9 +18,6 @@ public class AppTest {
      */
     @Test
     public void shouldAnswerWithTrue() {
-        String code = "转拼音";
-
-        String pingYin = PingYinUtil.getPingYin(code);
-        System.out.println(pingYin);
+        
     }
 }
