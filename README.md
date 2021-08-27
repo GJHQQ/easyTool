@@ -18,5 +18,9 @@
 ##### 2.getFirstSpell：获取汉字串拼音首字母，英文字符不变
 ##### 3.getFullSpell：获取汉字串拼音，英文字符不变
 
+## HttpClient-HTTP请求发送工具类
+##### 1.sendPost：发送post请求
+##### 1.sendGet：发送get请求
+
 ## SortUtils-排序算法
 ##### 1.sortList：暂无名称
