@@ -36,6 +36,11 @@
 ## EnumUtils-枚举工具类
 ##### 1.getAllEnum：获取指定枚举类型的所有键值
 
+## Md5Utils-Md5加密工具类
+##### 1.simpleMd5(String data)：简单加密
+##### 2.simpleMd5(String data,String salte)：带盐的简单加密
+##### 3.md5(String data, List<String> saltes)：带盐值集合的复杂加密
+##### 4.String md5(String data,String salte)：带盐的复杂加密
 
 
 ## SortUtils-排序算法
