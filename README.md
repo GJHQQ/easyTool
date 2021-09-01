@@ -35,6 +35,7 @@
 
 ## EnumUtils-枚举工具类
 ##### 1.getAllEnum：获取指定枚举类型的所有键值
+##### 2.getCodeNameByCode：获取指定code的codeName
 
 ## Md5Utils-Md5加密工具类
 ##### 1.simpleMd5(String data)：简单加密
