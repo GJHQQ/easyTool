@@ -44,5 +44,16 @@
 ##### 4.String md5(String data,String salte)：带盐的复杂加密
 
 
+## ToJsonIgnoreUtils-ToJsonIgnoreUtils注解解析
+##### 1.getClassAnno(Class clazz)：解析 ToJsonIgnore 注解
+##### 2.filters(Map<Object, Object> map)：过滤require为false的属性
+
+## JsonUtils-json工具类
+##### 1.customToJson(Object object,int groupId)：java对象转json对象，根据分组转化（需要ToJsonIgnore的支持）
+##### 2.customToJson(Object object)：java对象转json对象，默认分组转化（需要ToJsonIgnore的支持）
+
 ## SortUtils-排序算法
 ##### 1.sortList：暂无名称
+
+## 注解
+##### ToJsonIgnore：自定义java对象转json对象
